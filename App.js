@@ -5,19 +5,6 @@ import { BrowserRouter } from "react-router-dom";
 import RouteList from "./RouteList";
 import NavBar from "./NavBar";
 
-/**
- * App
- *
- * state:
-  * dogs: [{name...}]
-  * isLoading: bool
- *
- * props: none
- *
- * App -> RouteList
- *
- */
-
 function App() {
   const [dogs, setDogs] = useState({
     data: null,
