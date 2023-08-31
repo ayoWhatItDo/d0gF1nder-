@@ -3,19 +3,6 @@ import React from "react";
 import { Link, Navigate } from "react-router-dom";
 import "./DogDetails.css";
 
-/**
- * DogDetails
- *
- * state: none
- *
- * props:
-  * dog: {name, src}
- *
- *
-  * FilterDogDetails -> DogDetails
- *
- */
-
 function DogDetails({ dog }) {
 
   if (!dog) return <Navigate to="/dogs" />
@@ -31,7 +18,7 @@ function DogDetails({ dog }) {
             <li key={i}>{fact}</li>
           ))}
         </ul>
-        <Link to="/dogs">Go Back</Link>
+        <Link to="/dogs">Go Back to whence you came!</Link>
       </div>
     </div>
   );
