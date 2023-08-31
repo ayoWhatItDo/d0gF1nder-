@@ -2,25 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./DogList.css";
 
-/**
- * DogList
- *
- * state: none
- *
- * props:
-  * dogs: [{name, src}]
- *
- * rendered at /dogs
- *
- */
-
 function DogList({ dogs }) {
   return (
     <div className="DogList">
       <div className="row mt-4">
         <div className="col">
           <h2 className="text-center">
-            HELLO. WE HAVE DOGS. CLICK ON THEM FOR MORE INFO.
+            HELLO there neighbor we got some fresh UpDog in here Make sure to Ask what that is!
           </h2>
         </div>
       </div>
